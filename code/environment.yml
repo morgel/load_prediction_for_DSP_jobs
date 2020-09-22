@@ -1,0 +1,35 @@
+name: loadPredictionDSP
+
+dependencies:
+- scipy
+- numpy
+- scikit-learn
+- ipykernel
+- ipython
+- ipython_genutils
+- ipywidgets
+- jupyter
+- jupyter_client
+- jupyter_console
+- jupyter_core
+- notebook
+- pandas>=1.0.0
+- seaborn
+- pip
+- pytorch::pytorch=1.6.0
+- python>=3.6.0
+- xlrd>=1.0.0 
+- pytz
+- pyzmq
+- dill
+- matplotlib
+- psutil
+- pip:
+  - pylint
+  - autopep8
+  - python-dateutil
+  - pytorch-ignite==0.4.1
+  - gputil
+  - pmdarima==1.7.1
+  - statsmodels==0.12.0
+
